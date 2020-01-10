@@ -1,5 +1,5 @@
 {
-  "name": "traaittPlatformWebWallet",
+  "name": "traaittplatformwebwallet",
   "version": "1.0.0",
   "description": "Fully client side web wallet for traaittPlatform",
   "main": "index.js",
