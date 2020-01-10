@@ -386,7 +386,7 @@
       },
       "exportBlock": {
         "title": "Exportiere deine RAW Zugangsdaten",
-        "privateKeysButton": "Gib mir meine pirvaten Schlüssel",
+        "privateKeysButton": "Gib mir meine privaten Schlüssel",
         "mnemonicKeysButton": "Gib mir meine Mnemonic Phrase",
         "fileButton": "Exportiere in eine Datei"
       },
