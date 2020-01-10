@@ -80,7 +80,7 @@ body.native .hideOnNonNative{
 	height:34px;line-height:34px;
 	position: fixed;
 	top:0;
-	background: lavenderblush;
+	background: #191919;
 	color:purple;
 	font-size:16px;
 	font-weight: bold;
@@ -90,7 +90,7 @@ body.native .hideOnNonNative{
 	display: none;
 }
 #topBar a{
-	color:white;
+	color:lavenderblush;
 }
 @media screen and (max-width: 600px) {
 	#topBar{
@@ -121,8 +121,8 @@ body.menuHidden #menu {
 }
 
 #menu{
-	background: #00853D;
-	color: white;
+	background: #191919;
+	color: lavenderblush;
 	padding:10px 15px;
 }
 .menuDisabled #menu{
