@@ -131,14 +131,14 @@ body.menuHidden #menu {
 #menu a{
 	display: block;
 	border-bottom:1px solid #a1a1a1;
-	color:white;
+	color:lavenderblush;
 	font-size: 20px;
 	padding:14px 0;
 	text-decoration: none;
 	font-weight: 300;
 }
 #menu a:hover{
-	border-right:5px solid white;
+	border-right:5px solid lavenderblush;
 }
 #menu a:first-child:hover{
 	border-right: none;
@@ -232,8 +232,8 @@ body.transparent #copyright{
 }
 
 .walletHeader{
-	background: #005B95;
-	color:white;
+	background: purple;
+	color:lavenderblush;
 	padding:15px 5px;
 }
 .walletHeader .amount{
@@ -280,8 +280,8 @@ body.transparent #copyright{
 	text-align: right;
 	padding-right:5px;
 }
-.transactions .transaction .amount.more{color:#6bc534;}
-.transactions .transaction .amount.less{color:#5b5b5b;}
+.transactions .transaction .amount.more{color:#191919;}
+.transactions .transaction .amount.less{color:lavenderblush;}
 .transactions .transaction .moreInfo {
 	font-size: 20px;
 	width: 8%;
@@ -424,11 +424,11 @@ body.transparent #copyright{
 }
 .qrCodeScanningContainer .close:hover {
 	background: black;
-	color: #146DBD;
+	color: purple;
 }
 .qrCodeScanningContainer h2{
 	text-align: center;
-	color: #146DBD;
+	color: purple;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -479,8 +479,8 @@ body.transparent #copyright{
     min-height: 90vh;
     position: relative;
     text-align: center;
-    background-image: url(../img/landing/landing.png);
-    background-size: 50%;
+    background-color: lavenderblush;
+    background-size: 100%;
     background-position: center center;
     background-size: cover;
     margin-bottom: 160px;
@@ -506,8 +506,8 @@ body.native .indexTab .mainBlock {
 }
 .indexTab .mainBlock h1{
 	display: inline-block;
-	color:white;
-	border-bottom:1px solid white;
+	color:lavenderblush;
+	border-bottom:1px solid lavenderblush;
 	padding: 0 20px;
 	margin-bottom: 0;
 	font-size: 40px;
@@ -519,7 +519,7 @@ body.native .indexTab .mainBlock {
 }
 .indexTab .mainBlock > .actions{
 	text-align: left;
-	color:white;
+	color:lavenderblush;
 	padding:20px;
 	vertical-align: middle;
 }
@@ -531,14 +531,14 @@ body.native .indexTab .mainBlock > .actions{
 }
 .indexTab .mainBlock > .actions .btn{
 	/*padding:3px;*/
-	background: white;
+	background: lavenderblush;
 	margin-top: 0;
 	margin-right: 20px;
 }
 .indexTab .mainBlock > .actions .btn.basic{
 	background: none;
-	color:white;
-	border-color: white;
+	color:lavenderblush;
+	border-color: lavenderblush;
 }
 .indexTab .mainBlock > .actions .right{
 	text-align: right;
@@ -641,8 +641,8 @@ body.native .indexTab .mainBlock > .actions{
 	text-align: center;
 }
 .indexTab .walletImportSelector .close:hover{
-	background: white;
-	color:#146DBD;
+	background: lavenderblush;
+	color:purple;
 }
 .indexTab .walletImportSelector .container{
 	max-height: 80%;
@@ -664,21 +664,21 @@ body.native .indexTab .mainBlock > .actions{
 	width: 30%;
 	margin-right:4%;
 	/*background: white;*/
-	color:white;
+	color:lavenderblush;
 	margin-bottom: 20px;
 	text-align: center;
 }
 .indexTab .walletImportSelector .container .walletOption .subcontainer{
 	display: inline-block;
 	padding:15px 20px;
-	border:3px solid white;
+	border:3px solid lavenderblush;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
 .indexTab .walletImportSelector .container .walletOption .subcontainer:hover{
-	background: white;
-	color:#146DBD;
+	background: lavenderblush;
+	color:purple;
 }
 .indexTab .walletImportSelector .container .walletOption i{
 	font-size: 60px;
@@ -843,22 +843,22 @@ body{
 }
 .btn.basic{background:none;color:#e0e1e2;border:2px solid #e0e1e2;}
 .btn.basic:hover{background:none !important;color:#e0e1e2;border:2px solid #e0e1e2;}
-.btn:hover{background-color: #cacbcd;color: rgba(0,0,0,.8);}
+.btn:hover{background-color: #191919;color: rgba(0,0,0,.8);}
 
-.btn.primary{color: #fff;background-color: #40C18E;}
-.btn.primary.basic{color: #40C18E;border-color: #40C18E;}
-.btn.primary:hover {background-color: #00853D;}
-.btn.primary.basic:hover{color: #00853D;border-color: #00853D;}
+.btn.primary{color: #fff;background-color: #191919;}
+.btn.primary.basic{color: #191919;border-color: lavender;}
+.btn.primary:hover {background-color: #191919;}
+.btn.primary.basic:hover{color: #191919;border-color: #191919;}
 
-.btn.primary.invert{color: #00853D;background-color: #fff;}
-.btn.primary.invert:hover {background-color:#00853D; color:#fff;}
+.btn.primary.invert{color: #191919;background-color: lavender;}
+.btn.primary.invert:hover {background-color:#191919; color:lavender;}
 
 
 .btn.teal{background-color: #00b5ad;color: #fff;}
 .btn.teal:hover{background-color: #009c95;color: #fff;}
 
-.btn.green{background-color: #4cb860;color: #fff;}
-.btn.green:hover{background-color: #499c4e;color: #fff;}
+.btn.green{background-color: #191919;color: lavender;}
+.btn.green:hover{background-color: #191919e;color: lavender;}
 
 .btn:disabled,.btn.disabled{
 	cursor: default;
@@ -972,9 +972,9 @@ body{
 	background-color: #40C18E;
 }
 .field.checkbox label:after{
-	background: #fff -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.05)));
-	background: #fff -webkit-linear-gradient(transparent,rgba(0,0,0,.05));
-	background: #fff linear-gradient(transparent,rgba(0,0,0,.05));
+	background: lavenderblush -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.05)));
+	background: lavenderblush -webkit-linear-gradient(transparent,rgba(0,0,0,.05));
+	background: lavenderblush linear-gradient(transparent,rgba(0,0,0,.05));
 	position: absolute;
 	content: ''!important;
 	opacity: 1;
@@ -1067,7 +1067,7 @@ body{
 	-webkit-transition: width .1s ease,background-color .1s ease;
 	transition: width .1s ease,background-color .1s ease;
 	height:24px;line-height:24px;
-	color:white;
+	color:lavenderblush;
 }
 .progress .label{
 	display: block;
