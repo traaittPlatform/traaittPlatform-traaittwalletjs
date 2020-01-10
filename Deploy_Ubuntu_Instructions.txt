@@ -30,6 +30,10 @@ first build the typescript and service workers by running the following three co
 	bin/Release
 	obj/Release
 
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 3.1.0 
+dotnet add package Newtonsoft.Json --version 11.0.2 
+dotnet add package Serilog --version 2.7.1
+
 now, run the following to build the source: 
 
 	dotnet publish --configuration Release
@@ -61,7 +65,7 @@ If you see this page, blah blah blah...
 
 Step 6: Configure Nginx
 
-	sudo nano /etc/nginx/sites-available/default
+	
 
 then paste the following into the file:
 
