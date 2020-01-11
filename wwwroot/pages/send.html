@@ -38,7 +38,7 @@
 
 					<div class="field" >
 						<label>{{ $t("sendPage.sendBlock.amount.label") }}</label>
-						<input class="amountInput" type="text" v-model="amountToSend" placeholder="10.5 " :readonly="lockedForm"/>
+						<input class="amountInput" type="text" v-model="amountToSend" placeholder="1447 " :readonly="lockedForm"/>
 						<div v-if="!amountToSendValid && amountToSend != ''" class="message error">
 							{{ $t("sendPage.sendBlock.amount.invalid") }}
 						</div>
@@ -62,14 +62,6 @@
 			</div>
 		</div>
 
-		<div class="qrCodeScanningContainer" :class="(qrScanning ? '' : 'hidden')">
-			<div class="close" @click="stopScan()">
-				<i class="fa fa-close" aria-hidden="true"></i>
-			</div>
-			<h2>{{ $t("sendPage.qrCodeScanning.explication") }}</h2>
-			<div class="videoContainer" >
-				<video width="100" id="cameraVideoFluxForDelivery" autoplay></video>
-			</div>
-		</div>
+		
 	</div>
 </div>

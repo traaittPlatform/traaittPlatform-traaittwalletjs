@@ -42,7 +42,7 @@ class SendView extends DestructableView {
     @VueVar('') destinationAddressUser !: string;
     @VueVar('') destinationAddress !: string;
     @VueVar(false) destinationAddressValid !: boolean;
-    @VueVar('10.5') amountToSend !: string;
+    @VueVar('1447') amountToSend !: string;
     @VueVar(false) lockedForm !: boolean;
     @VueVar(true) amountToSendValid !: boolean;
     @VueVar('') paymentId !: string;
@@ -82,7 +82,7 @@ class SendView extends DestructableView {
         this.lockedForm = false;
         this.destinationAddressUser = '';
         this.destinationAddress = '';
-        this.amountToSend = '10.5';
+        this.amountToSend = '1447';
         this.destinationAddressValid = false;
         this.qrScanning = false;
         this.amountToSendValid = false;
@@ -225,7 +225,7 @@ class SendView extends DestructableView {
             let amount = parseFloat(self.amountToSend);
             if (self.destinationAddress !== null) {
                 //todo use BigInteger
-                if (amount * Math.pow(10, config.coinUnitPlaces) > wallet.unlockedAmount(blockchainHeight)) {
+                if (amount * Math.pow(100, config.coinUnitPlaces) > wallet.unlockedAmount(blockchainHeight)) {
                     swal({
                         type: 'error',
                         title: i18n.t('sendPage.notEnoughMoneyModal.title'),
@@ -236,7 +236,7 @@ class SendView extends DestructableView {
                 }
 
                 //TODO use biginteger
-                let amountToSend = amount * Math.pow(10, config.coinUnitPlaces);
+                let amountToSend = amount * Math.pow(100, config.coinUnitPlaces);
                 let destinationAddress = self.destinationAddress;
 
                 swal({
