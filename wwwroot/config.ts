@@ -1,8 +1,8 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
-    apiUrl: typeof window !== 'undefined' && window.location ? window.location.href.substr(0, window.location.href.lastIndexOf('/') + 1) + 'api/' : 'https://wallet.plenteum.com/api/',
-    mainnetExplorerUrl: "https://explorer.traaittplatform.com/",
-    testnetExplorerUrl: "https://explorer.traaittplatform.com/",
+    apiUrl: typeof window !== 'undefined' && window.location ? window.location.href.substr(0, window.location.href.lastIndexOf('/') + 1) + 'api/' : 'https://traaittwallet.com/api/',
+    mainnetExplorerUrl: "https://traaittchain.com/",
+    testnetExplorerUrl: "https://traaittchain.com/",
     testnet: false,
     coinUnitPlaces: 2,
     txMinConfirms: 60,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
